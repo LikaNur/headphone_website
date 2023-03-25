@@ -1,0 +1,380 @@
+body {
+    padding: 0;
+    font-family:  Tahoma, sans-serif;
+    color: #282828;
+    background-color: #e0d9e0;
+    background-image: linear-gradient(247deg, #e0d9e0 0%, #7dd7dc 100%);
+}
+
+header {
+    display: flex;
+    padding: 60px 80px;
+    margin: 0;
+    gap: 10px;
+}
+
+.icon {
+    width: 25px;
+    display: flex;
+}
+
+.logo {
+    font-size: 16px;
+    font-weight:700;
+}
+
+.hero-light {
+    font-size: 75px;
+    font-weight: lighter;
+    margin-top:280px;
+}
+
+.hero-bold {
+    font-size: 75px;
+    font-weight: 650;
+    display: block;
+}
+
+.headset {
+    width: 1100px;
+}
+
+
+.container {
+   display: flex;
+   justify-content: end;
+}
+
+h1{
+    align-self: center;
+}
+
+.main-btn{
+    background-color: #C5EBEC;
+    font-size: 20px;
+    border: none;
+    border-radius: 70px;
+    padding: 17px 55px;
+    cursor: pointer;
+}
+
+.main-btn:hover{
+    background-color: whitesmoke;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.info-img{
+    width: 500px;
+    height:600px;
+    border: 5px solid white;
+    border-radius: 60px;
+}
+
+.second-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+.info{
+    width: 50%; 
+    float: left;
+    position: absolute;
+    right: 800px;
+}
+
+.info-im{
+    max-width: 100%;
+    max-height:100%;
+    float: right;
+    margin-left: 200px;
+}
+
+.all{
+    font-size: 50px;
+    font-weight: lighter;
+    justify-content: center;
+}
+
+.news{
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 150px;
+    justify-content: center;
+}
+
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 50%;
+    letter-spacing: 5px;
+}
+
+.general_block{
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 100px;
+    color: #000000;
+    position:relative;
+    background-color: #ffffff;
+    border-radius: 60px;
+    margin-top: 30px;
+}
+
+.block_1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 560px;
+    padding: 15px;
+    border: 5px solid #F0F5F9; 
+    border-radius: 60px;
+}
+
+.block_1:hover{
+    transition: 0.6s;
+    color: #000000;
+    -webkit-box-shadow: 0px 0px 34px 13px #C5D8E8; 
+    box-shadow: 0px 0px 34px 13px #C5D8E8;
+}
+
+.desc{
+    padding: 0 40px 40px 40px;
+    border-radius: 80px;
+    text-align: center;
+    line-height: 30px;
+    width: 60%;
+}
+
+img{
+    border-radius: 80px;
+}
+
+.category{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.main-btn-category{
+    background-color: #C5EBEC;
+    font-size: 20px;
+    border: none;
+    border-radius: 70px;
+    padding: 17px 55px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.main-btn-category:hover{
+    background-color: whitesmoke;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.info-end{
+    width: 50%; 
+    float: left;
+    position: absolute;
+    right: 800px;
+    margin-bottom: 50px;
+}
+
+.info-img{
+    max-width: 100%;
+    max-height:100%;
+    float: right;
+    margin-left: 300px;;
+}
+
+.visit{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.locations{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.address-one{
+    line-height: 30px;
+    width: 30%; 
+}
+
+.social ul li{
+    display: inline-block;
+    padding-right: 5px !important;
+    margin-right: 20px;
+}
+
+.footer_block_1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 560px;
+    padding: 15px;
+}
+
+.footer-block{
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 100px;
+    color: #000000;
+    position:relative;
+    margin-top: 400px;
+}
+
+.footer-1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.address-one{
+    line-height: 30px;
+    width: 45%; 
+}
+
+.mail{
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width:768px){
+
+.headset {
+    width: 100%;
+}
+
+.hero-light {
+    font-size: 5px;
+    margin-top:280px;
+}
+
+.hero-bold {
+    font-size: 5px;
+    font-weight: 650;
+    display: block;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%
+ }
+
+}
+
+#menu__toggle {
+    opacity: 0;
+  }
+  
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu__btn>span,
+  .menu__btn>span::before,
+  .menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+  }
+  
+  .menu__btn>span::before {
+    content: '';
+    top: -8px;
+  }
+  
+  .menu__btn>span::after {
+    content: '';
+    top: 8px;
+  }
+  
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 90px;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #E6E1E1;
+    box-shadow: 1px 0px 6px #C8D1DE;
+    border-radius: 90px;
+  }
+  
+  .menu__item {
+    display: block;
+    padding: 10px 20px 0 ;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 18px;
+    text-decoration: none;
+  }
+  
+  .menu__item:hover {
+    background: #7AE1DE;
+    color: white;
+  }
+  #menu__toggle:checked~.menu__btn>span {
+    transform: rotate(45deg);
+  }
+  
+  #menu__toggle:checked~.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  
+  #menu__toggle:checked~.menu__btn>span::after {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  
+  #menu__toggle:checked~.menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  .menu__btn>span,
+  .menu__btn>span::before,
+  .menu__btn>span::after {
+    transition-duration: .25s;
+  }
+  
+  .menu__box {
+    transition-duration: .25s;
+  }
+  
+  .menu__item {
+    transition-duration: .25s;
+  }
+
